@@ -15,6 +15,7 @@
 		57EC66D61C0780110091561C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EC66D41C0780110091561C /* LaunchScreen.storyboard */; };
 		57EC66E01C078AB50091561C /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EC66DE1C078AB50091561C /* Fabric.framework */; settings = {ASSET_TAGS = (); }; };
 		57EC66E11C078AB50091561C /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57EC66DF1C078AB50091561C /* Crashlytics.framework */; settings = {ASSET_TAGS = (); }; };
+		57EC66E71C078DDC0091561C /* cash.caf in Resources */ = {isa = PBXBuildFile; fileRef = 57EC66E61C078DDC0091561C /* cash.caf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		57EC66D71C0780110091561C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57EC66DE1C078AB50091561C /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		57EC66DF1C078AB50091561C /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		57EC66E61C078DDC0091561C /* cash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cash.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				57EC66D21C0780110091561C /* Assets.xcassets */,
 				57EC66D41C0780110091561C /* LaunchScreen.storyboard */,
 				57EC66D71C0780110091561C /* Info.plist */,
+				57EC66E51C078DCC0091561C /* Resources */,
 				57EC66C61C0780110091561C /* Supporting Files */,
 			);
 			path = Stats;
@@ -85,6 +88,14 @@
 				57EC66C71C0780110091561C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57EC66E51C078DCC0091561C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57EC66E61C078DDC0091561C /* cash.caf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +159,7 @@
 				57EC66D61C0780110091561C /* LaunchScreen.storyboard in Resources */,
 				57EC66D31C0780110091561C /* Assets.xcassets in Resources */,
 				57EC66D11C0780110091561C /* Main.storyboard in Resources */,
+				57EC66E71C078DDC0091561C /* cash.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +349,7 @@
 				57EC66DC1C0780110091561C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
